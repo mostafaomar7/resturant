@@ -179,9 +179,13 @@ div img {
 
     border-radius: 30px;
 }
-
+.four1{
+    margin-left: 90px;
+    
+}
 .four1 h6 {
     color: #167926;
+    font-size: 22px;
 }
 
 .four1 h4 {
@@ -194,8 +198,13 @@ div img {
 }
 
 .four1 p {
-    color: rgba(218, 15, 15, 0.534);
+    color: rgb(151, 126, 126);
     font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 i {
@@ -211,6 +220,13 @@ i:hover{
 }
 .tex{
     margin-top: 200px;
+}
+.nav2{
+    margin-top: 0px;
+    width: 1000px;
+}
+#fourth h1{
+    font-size: 50px;
 }
 @media (max-width :450px) {
     #first{
@@ -258,5 +274,16 @@ i:hover{
     .li3{
         margin-left: 0px;
          border: none;
+    }
+    .nav2{
+       
+        width: 100%;
+    }
+    .four1{
+        margin-left: 20px;
+        
+    }
+    #fourth h1{
+        font-size: 40px;
     }
 }
