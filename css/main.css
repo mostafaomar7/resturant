@@ -87,7 +87,7 @@ img {
 }
 
 #second {
-    background-color: #222222;
+    background-color: #222828;
     color: white;
 }
 
@@ -104,7 +104,7 @@ img {
 
 }
 
-div img {
+.im1 img {
     width: 350px;
     height: 450px;
     border-radius: 30px;
@@ -211,7 +211,7 @@ i {
     font-size: 40px;
 
 }
-i:hover{
+#first i:hover{
     font-size: 22px;
 }
 .ico{
@@ -249,11 +249,69 @@ i:hover{
     padding: 5px 10px;
 }
 #five h1{
-    color: rgb(83, 243, 243);
+    color: rgb(240, 243, 83);
     margin-left: 120px;
     margin-bottom: 100px;
 }
-
+.sim img{
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.sim img:hover {
+    width: 260px;
+}
+#six h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#seven{
+    text-align: center;
+}
+#seven{
+    background-color: rgb(20, 17, 44);
+    color: white;
+}
+#seven h5{
+    color: #eb699e;
+}
+.box{
+    box-shadow: #ccc 0px 0px 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 60px 0;
+   margin-top: 80px;
+   
+}
+.box h4{
+    font-family: sans-serif;
+}
+.bo1 i{
+    color: orange;
+}
+.bo2 i{
+    color: blueviolet;
+}
+.bo3 i{
+    color: pink;
+}
+#seven button{
+    width: 180px;
+    font-size:22px;
+    border: 2px solid #eb699e;
+  
+    text-align: center;
+    padding: 12px 0px;
+    margin: auto;
+    background: rgb(20, 17, 44);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transition: all 1s;
+    color: white;
+}
+#seven button:hover{
+    background:#000 ;
+}
 @media (max-width :450px) {
     #first{
         background-position: 63% ;
@@ -262,7 +320,7 @@ i:hover{
         margin-left: 0px;
     }
 
-    div img {
+    .im1 img {
         width: 90%;
         margin: 10px;
         height: 350px;
@@ -321,4 +379,10 @@ i:hover{
     #five{
         background-position: 65% ;
     }
+    .sim img{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+
 }
