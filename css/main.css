@@ -228,6 +228,32 @@ i:hover{
 #fourth h1{
     font-size: 50px;
 }
+#five{
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+#five button{
+    
+    background: none;
+    width: 250px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+#five button:hover{
+    background-color: rgb(148, 20, 20);
+}
+#five a{
+    text-decoration: none;
+    color: #eee;
+    padding: 5px 10px;
+}
+#five h1{
+    color: rgb(83, 243, 243);
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
 @media (max-width :450px) {
     #first{
         background-position: 63% ;
@@ -285,5 +311,14 @@ i:hover{
     }
     #fourth h1{
         font-size: 40px;
+    }
+    #five h1{
+        color: rgb(83, 243, 243);
+        margin-left: 12px;
+        margin-bottom: 100px;
+        font-size: 35px;
+    }
+    #five{
+        background-position: 65% ;
     }
 }
