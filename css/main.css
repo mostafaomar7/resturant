@@ -312,7 +312,122 @@ i {
 #seven button:hover{
     background:#000 ;
 }
+#eight h1{
+    font-weight: bold;
+    font-family:monospace;
+    font-size: 45px;
+    
+}
+.in5{
+  background-color: #efb68d;
+  transition: all 1s;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.in5:hover{
+    background-color: black;
+}
+.input{
+    padding: 40px 30px;
+    background: #eb699e;
+    width: 70%;
+    margin-top: 40px;
+}
+.input input{
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: none;
+    width: 250px;
+   height: 50px;
+   border: 1px solid #fff;
+}
+#nine{
+    background-color: #232323;
+    color: #fff;
+}
+#nine h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 66px;
+    font-weight: bold
+}
+#nine .text p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    
+    font-weight: 501;
+}
+.bottom_form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+}
+.bottom_form input {
+    border: inherit;
+    padding: 0px 19px;
+    width: 70%;
+    height: 49px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 35px;
+    margin-left: 220px;
+}
+.bottom_form button {
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #efb68d;
+    color: #fff;
+    padding: 5px 0px;
+    max-width: 192px;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: #fff solid 4px;
+    margin-left: -200px;
+}
+.bottom_form button:hover{
+    background-color: #eb699e;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+#nine h3{
+    font-size: 45px;
+}
+hr{
+    color: #fff;
+    width: 200px;
+}
+.copy{
+    border-top: 1px solid #fff;
+    width: 100%;
+    
+}
+.copy a{
+    text-decoration: none;
+    color: #fff;
+}
+.copy a:hover{
+    color: #eb699e;
+}
+.copy p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
 @media (max-width :450px) {
+    .navbar-nav li {
+        margin-right: 0px;
+       
+    }
     #first{
         background-position: 63% ;
     }
@@ -384,5 +499,24 @@ i {
         margin-bottom: 10px;
         border-radius: 30px;
     }
-
+    .input{
+        
+        
+        width: 100%;
+        
+    }
+    #nine h3{
+        font-size: 35px;
+    }
+    #nine h1{
+        font-size: 27px;
+    }
+    .bottom_form input{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .bottom_form button{
+        width: 50%;
+        margin-left: -170px;
+    }
 }
